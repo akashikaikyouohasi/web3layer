@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i -e 's/public-1a/public-1c/g' /var/www/html/index.html
