@@ -15,7 +15,7 @@ resource "aws_instance" "sample_web_server_01" {
   iam_instance_profile = "udemy-sample-ec2-profile"
 
   # ユーザーデータ
-  user_data = file("bashsetting2-1a.txt")
+  user_data = file("user_data/bashsetting2-1a.txt")
 
   # EBS設定
   root_block_device {

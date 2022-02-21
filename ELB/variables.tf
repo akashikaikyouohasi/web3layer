@@ -1,5 +1,10 @@
+# udemy-vpc-web-server
 variable "ami" {
   default = "ami-01dee7de9d47a3d45"
+}
+
+variable "vpc_id" {
+  default = "vpc-06b83f67d5190ca74"
 }
 
 variable "public_subnet_ids" {
